@@ -1,0 +1,19 @@
+# General
+
+Sequential and Parallel ocean simulation using OpenMP
+
+# Compilation
+
+`make clean` removes the compiled executable
+
+`make` compiles the code.
+
+# Running
+
+## sequential
+
+./serial_ocean -d <dimension> -t <timesteps>
+
+## parallel
+
+./omp_ocean -d <dimension> -t <timesteps> -n <threads>
